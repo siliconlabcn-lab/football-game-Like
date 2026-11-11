@@ -1,8 +1,17 @@
 <!doctype html>
 <html lang="zh-CN">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="refresh" content="0; url=play-v3/">
-<title>主场 · 球星之夜</title>
-<p><a href="play-v3/">进入游戏：主场 · 球星之夜</a></p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>主场 · 球星之夜</title>
+  <script>
+    const game = new URL("https://siliconaiedu.github.io/Like-football-game/play-v3/");
+    game.hash = location.hash;
+    location.replace(game);
+  </script>
+  <meta http-equiv="refresh" content="0; url=https://siliconaiedu.github.io/Like-football-game/play-v3/">
+</head>
+<body>
+  <p><a href="https://siliconaiedu.github.io/Like-football-game/play-v3/">前往新的游戏地址</a></p>
+</body>
 </html>
